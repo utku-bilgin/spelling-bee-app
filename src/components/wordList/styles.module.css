@@ -1,0 +1,128 @@
+.words_list {
+  width: 578px;
+  height: 578px;
+  border-radius: 8px;
+  color: var(--game-background-color);
+  background-color: var(--home-font-color);
+}
+
+.word_list_count {
+  margin: 0 4px 0 4px;
+}
+
+.words_list_header {
+  color: var(--game-background-color);
+  padding: 16px 0 0 32px;
+  display: flex;
+}
+
+.words_list_content > ul {
+  margin-top: 16px;
+  font-size: 22px;
+  list-style-type: none;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .words_list {
+    width: 388px;
+    height: 388px;
+    border-radius: 6px;
+  }
+
+  .word_list_count {
+    margin: 0 2px 0 2px;
+  }
+
+  .words_list_header {
+    padding: 12px 0 0 28px;
+  }
+
+  .words_list_content > ul {
+    margin-top: 14px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .words_list {
+    width: 388px;
+    height: 388px;
+    border-radius: 6px;
+  }
+
+  .word_list_count {
+    margin: 0 2px 0 2px;
+  }
+
+  .words_list_header {
+    padding: 12px 0 0 28px;
+  }
+
+  .words_list_content > ul {
+    margin-top: 14px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .words_list {
+    width: 388px;
+    height: 388px;
+    border-radius: 6px;
+  }
+
+  .word_list_count {
+    margin: 0 2px 0 2px;
+  }
+
+  .words_list_header {
+    padding: 12px 0 0 28px;
+  }
+
+  .words_list_content > ul {
+    margin-top: 14px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .words_list {
+    width: 388px;
+    height: 280px;
+    border-radius: 6px;
+  }
+
+  .word_list_count {
+    margin: 0 2px 0 2px;
+  }
+
+  .words_list_header {
+    padding: 10px 0 0 28px;
+  }
+
+  .words_list_content > ul {
+    margin-top: 14px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .words_list {
+    width: 388px;
+    height: 280px;
+    border-radius: 6px;
+  }
+
+  .word_list_count {
+    margin: 0 2px 0 2px;
+  }
+
+  .words_list_header {
+    padding: 10px 0 0 28px;
+  }
+
+  .words_list_content > ul {
+    margin-top: 14px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "alphabet": {
+    "full": "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z",
+    "vowel": "a,e,i,o,u",
+    "sibilancy": "b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z"
+  },
+  "button": {
+    "back": "Back",
+    "delete": "Delete",
+    "enter": "Enter"
+  },
+  "error": "Not in the word list !",
+  "description" : {
+    "part1": "You have found",
+    "part2": "words"
+  },
+  "bar": {
+    "zero": "NOVICE",
+    "ten": "APPRENTICE",
+    "twenty": "INTERN",
+    "thirty": "TRAINEE",
+    "fourty": "EXPERIENCED",
+    "fifty": "SKILLED",
+    "sixty": "EXPERT",
+    "seventy": "SEASONED",
+    "ninety": "MASTER",
+    "hundred": "PROFESSIONAL"
+  },
+  "over": "Time is over !"
+}

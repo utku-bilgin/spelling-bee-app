@@ -1,0 +1,49 @@
+.popup_area {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  width: 480px;
+  height: 320px;
+  background-color: var(--home-background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 8px;
+}
+
+.popup_message {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.popup_btn_area {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--home-background-color);
+}
+
+.popup_btn {
+  width: 160px;
+  height: 170px;
+  font-size: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-color: var(--home-background-color);
+  transition: 1s;
+}
+
+.popup_btn:hover {
+  background-color: var(--game-background-color);
+}

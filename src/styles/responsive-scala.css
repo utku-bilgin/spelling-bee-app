@@ -1,0 +1,41 @@
+@media (min-width: 1281px) {
+  /* 
+      ##Cihaz = Masaüstü
+      ##Ekran = 1281px 'den yüksek çözünürlükler için
+    */
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* 
+      ##Cihaz = Laptoplar, Masaüstü
+      ##Ekran = 1025px to 1280px Arası Ekranlar
+    */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* 
+      ##Cihaz = Tabletler, Ipad (portrait/dikey modda)
+      ##Ekran = 768px to 1024px Arası Ekranlar
+    */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* 
+      ##Cihaz = Tabletler, Ipad (landscape/yatay modda)
+      ##Ekran = 768px to 1024px Arası Ekranlar
+    */
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* 
+      ##Cihaz = Düşük Çözünürlüklü Tablet ve Mobil Ekranlar (Portrait/Dikey Modda)
+      ##Ekran = 481px to 767px Arası Ekranlar
+    */
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* 
+      ##Cihaz = En Çok Tercih Edilen Mobil Boyutlar (Portrait/Dikey Modda)
+      ##Ekran = 320px to 479px Arası Ekranlar
+    */
+}

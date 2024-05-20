@@ -1,0 +1,157 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.game_header {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 6px;
+}
+
+.game_header > h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.game_logo_image {
+  width: 80px;
+  height: 80px;
+  animation: fly 3s infinite alternate;
+}
+
+@keyframes fly {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translatey(4px);
+  }
+  66% {
+    transform: translatey(-4px);
+  }
+}
+
+/* sol ve sağ resimler */
+.game_left_image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.game_right_image {
+  position: absolute;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .game_header > h1 {
+    font-size: 43px;
+  }
+
+  .game_logo_image {
+    width: 54px;
+    height: 54px;
+  }
+
+  .game_left_image {
+    width: 73px;
+    height: 1024px;
+  }
+
+  .game_right_image {
+    width: 73px;
+    height: 1024px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .game_header > h1 {
+    font-size: 43px;
+  }
+
+  .game_logo_image {
+    width: 54px;
+    height: 54px;
+  }
+
+  .game_left_image {
+    width: 73px;
+    height: 1024px;
+  }
+
+  .game_right_image {
+    width: 73px;
+    height: 1024px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .game_header > h1 {
+    font-size: 43px;
+  }
+
+  .game_logo_image {
+    width: 54px;
+    height: 54px;
+  }
+
+  .game_left_image {
+    width: 73px;
+    height: 1024px;
+  }
+
+  .game_right_image {
+    width: 73px;
+    height: 1024px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .game_header > h1 {
+    font-size: 43px;
+  }
+
+  .game_logo_image {
+    width: 54px;
+    height: 54px;
+  }
+
+  .game_left_image {
+    display: none;
+  }
+
+  .game_right_image {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .game_header > h1 {
+    font-size: 43px;
+  }
+
+  .game_logo_image {
+    width: 54px;
+    height: 54px;
+  }
+
+  .game_left_image {
+    display: none;
+  }
+
+  .game_right_image {
+    display: none;
+  }
+}

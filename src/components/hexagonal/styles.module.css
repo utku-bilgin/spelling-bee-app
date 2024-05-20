@@ -1,0 +1,318 @@
+.letter_area {
+  width: 384px;
+  height: 416px;
+  position: relative;
+}
+
+.letter_btn {
+  width: 128px;
+  height: 150px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  position: absolute;
+  background-color: var(--home-background-color);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.letter_btn_border {
+  width: 116px;
+  height: 136px;
+  background-color: var(--game-background-color);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.letter_btn_border:hover {
+  background-color: var(--home-background-color);
+}
+
+.letter_btn_in {
+  transform: rotate(-30deg);
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.letter_btn_one {
+  transform: translate(128px, 0) rotate(30deg);
+}
+
+.letter_btn_two {
+  transform: translate(246px, 68px) rotate(30deg);
+}
+
+.letter_btn_three {
+  transform: translate(246px, 203px) rotate(30deg);
+}
+
+.letter_btn_four {
+  transform: translate(128px, 272px) rotate(30deg);
+}
+
+.letter_btn_five {
+  transform: translate(10px, 203px) rotate(30deg);
+}
+
+.letter_btn_six {
+  transform: translate(10px, 68px) rotate(30deg);
+}
+
+.letter_btn_seven {
+  transform: translate(128px, 136px) rotate(30deg);
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .letter_area {
+    width: 258px;
+    height: 179px;
+  }
+
+  .letter_btn {
+    width: 86px;
+    height: 100px;
+  }
+
+  .letter_btn_border {
+    width: 74px;
+    height: 88px;
+  }
+
+  .letter_btn_in {
+    font-size: 54px;
+  }
+
+  .letter_btn_one {
+    transform: translate(86px, 0) rotate(30deg);
+  }
+
+  .letter_btn_two {
+    transform: translate(165px, 46px) rotate(30deg);
+  }
+
+  .letter_btn_three {
+    transform: translate(165px, 136px) rotate(30deg);
+  }
+
+  .letter_btn_four {
+    transform: translate(86px, 182px) rotate(30deg);
+  }
+
+  .letter_btn_five {
+    transform: translate(7px, 136px) rotate(30deg);
+  }
+
+  .letter_btn_six {
+    transform: translate(7px, 46px) rotate(30deg);
+  }
+
+  .letter_btn_seven {
+    transform: translate(86px, 92px) rotate(30deg);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .letter_area {
+    width: 258px;
+    height: 179px;
+  }
+
+  .letter_btn {
+    width: 86px;
+    height: 100px;
+  }
+
+  .letter_btn_border {
+    width: 74px;
+    height: 88px;
+  }
+
+  .letter_btn_in {
+    font-size: 54px;
+  }
+
+  .letter_btn_one {
+    transform: translate(86px, 0) rotate(30deg);
+  }
+
+  .letter_btn_two {
+    transform: translate(165px, 46px) rotate(30deg);
+  }
+
+  .letter_btn_three {
+    transform: translate(165px, 136px) rotate(30deg);
+  }
+
+  .letter_btn_four {
+    transform: translate(86px, 182px) rotate(30deg);
+  }
+
+  .letter_btn_five {
+    transform: translate(7px, 136px) rotate(30deg);
+  }
+
+  .letter_btn_six {
+    transform: translate(7px, 46px) rotate(30deg);
+  }
+
+  .letter_btn_seven {
+    transform: translate(86px, 92px) rotate(30deg);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .letter_area {
+    width: 258px;
+    height: 179px;
+  }
+
+  .letter_btn {
+    width: 86px;
+    height: 100px;
+  }
+
+  .letter_btn_border {
+    width: 74px;
+    height: 88px;
+  }
+
+  .letter_btn_in {
+    font-size: 54px;
+  }
+
+  .letter_btn_one {
+    transform: translate(86px, 0) rotate(30deg);
+  }
+
+  .letter_btn_two {
+    transform: translate(165px, 46px) rotate(30deg);
+  }
+
+  .letter_btn_three {
+    transform: translate(165px, 136px) rotate(30deg);
+  }
+
+  .letter_btn_four {
+    transform: translate(86px, 182px) rotate(30deg);
+  }
+
+  .letter_btn_five {
+    transform: translate(7px, 136px) rotate(30deg);
+  }
+
+  .letter_btn_six {
+    transform: translate(7px, 46px) rotate(30deg);
+  }
+
+  .letter_btn_seven {
+    transform: translate(86px, 92px) rotate(30deg);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .letter_area {
+    width: 258px;
+    height: 179px;
+  }
+
+  .letter_btn {
+    width: 86px;
+    height: 100px;
+  }
+
+  .letter_btn_border {
+    width: 74px;
+    height: 88px;
+  }
+
+  .letter_btn_in {
+    font-size: 54px;
+  }
+
+  .letter_btn_in {
+    font-size: 50px;
+  }
+
+  .letter_btn_one {
+    transform: translate(86px, 0) rotate(30deg);
+  }
+
+  .letter_btn_two {
+    transform: translate(165px, 46px) rotate(30deg);
+  }
+
+  .letter_btn_three {
+    transform: translate(165px, 136px) rotate(30deg);
+  }
+
+  .letter_btn_four {
+    transform: translate(86px, 182px) rotate(30deg);
+  }
+
+  .letter_btn_five {
+    transform: translate(7px, 136px) rotate(30deg);
+  }
+
+  .letter_btn_six {
+    transform: translate(7px, 46px) rotate(30deg);
+  }
+
+  .letter_btn_seven {
+    transform: translate(86px, 92px) rotate(30deg);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .letter_area {
+    width: 258px;
+    height: 179px;
+  }
+
+  .letter_btn {
+    width: 86px;
+    height: 100px;
+  }
+
+  .letter_btn_border {
+    width: 74px;
+    height: 88px;
+  }
+
+  .letter_btn_in {
+    font-size: 54px;
+  }
+
+  .letter_btn_in {
+    font-size: 50px;
+  }
+
+  .letter_btn_one {
+    transform: translate(86px, 0) rotate(30deg);
+  }
+
+  .letter_btn_two {
+    transform: translate(165px, 46px) rotate(30deg);
+  }
+
+  .letter_btn_three {
+    transform: translate(165px, 136px) rotate(30deg);
+  }
+
+  .letter_btn_four {
+    transform: translate(86px, 182px) rotate(30deg);
+  }
+
+  .letter_btn_five {
+    transform: translate(7px, 136px) rotate(30deg);
+  }
+
+  .letter_btn_six {
+    transform: translate(7px, 46px) rotate(30deg);
+  }
+
+  .letter_btn_seven {
+    transform: translate(86px, 92px) rotate(30deg);
+  }
+}

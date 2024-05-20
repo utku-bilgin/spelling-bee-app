@@ -1,0 +1,220 @@
+.game_countdown {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 6px solid var(--home-background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  position: relative;
+}
+
+.game_countdown_content {
+  font-size: 64px;
+}
+
+.game_countdown_plus {
+  position: absolute;
+  top: 48px;
+  font-size: 20px;
+  color: green;
+  font-weight: bolder;
+  animation: moveUp 1s linear forwards;
+}
+
+@keyframes moveUp {
+  to {
+    top: 14px; /* End position */
+  }
+}
+
+.game_countdown_minus {
+  position: absolute;
+  top: 80px;
+  font-size: 20px;
+  color: brown;
+  font-weight: bolder;
+  animation: moveDown 1s linear forwards;
+}
+
+@keyframes moveDown {
+  to {
+    top: 116px; /* End position */
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .game_countdown {
+    width: 107px;
+    height: 107px;
+    border: 4px solid var(--home-background-color);
+    gap: 1px;
+  }
+
+  .game_countdown_content {
+    font-size: 43px;
+  }
+
+  .game_countdown_plus {
+    top: 32px;
+    font-size: 14px;
+  }
+
+  @keyframes moveUp {
+    to {
+      top: 10px; /* End position */
+    }
+  }
+
+  .game_countdown_minus {
+    top: 54px;
+    font-size: 14px;
+  }
+
+  @keyframes moveDown {
+    to {
+      top: 78px; /* End position */
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .game_countdown {
+    width: 107px;
+    height: 107px;
+    border: 4px solid var(--home-background-color);
+    gap: 1px;
+  }
+
+  .game_countdown_content {
+    font-size: 43px;
+  }
+
+  .game_countdown_plus {
+    top: 32px;
+    font-size: 14px;
+  }
+
+  @keyframes moveUp {
+    to {
+      top: 10px; /* End position */
+    }
+  }
+
+  .game_countdown_minus {
+    top: 54px;
+    font-size: 14px;
+  }
+
+  @keyframes moveDown {
+    to {
+      top: 78px; /* End position */
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .game_countdown {
+    width: 107px;
+    height: 107px;
+    border: 4px solid var(--home-background-color);
+    gap: 1px;
+  }
+
+  .game_countdown_content {
+    font-size: 43px;
+  }
+
+  .game_countdown_plus {
+    top: 32px;
+    font-size: 14px;
+  }
+
+  @keyframes moveUp {
+    to {
+      top: 10px; /* End position */
+    }
+  }
+
+  .game_countdown_minus {
+    top: 54px;
+    font-size: 14px;
+  }
+
+  @keyframes moveDown {
+    to {
+      top: 78px; /* End position */
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .game_countdown {
+    width: 80px;
+    height: 80px;
+    border: 2px solid var(--home-background-color);
+    gap: 1px;
+  }
+
+  .game_countdown_content {
+    font-size: 38px;
+  }
+
+  .game_countdown_plus {
+    top: 32px;
+    font-size: 14px;
+  }
+
+  @keyframes moveUp {
+    to {
+      top: 10px; /* End position */
+    }
+  }
+
+  .game_countdown_minus {
+    top: 54px;
+    font-size: 14px;
+  }
+
+  @keyframes moveDown {
+    to {
+      top: 78px; /* End position */
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .game_countdown {
+    width: 80px;
+    height: 80px;
+    border: 2px solid var(--home-background-color);
+    gap: 1px;
+  }
+
+  .game_countdown_content {
+    font-size: 38px;
+  }
+
+  .game_countdown_plus {
+    top: 32px;
+    font-size: 14px;
+  }
+
+  @keyframes moveUp {
+    to {
+      top: 10px; /* End position */
+    }
+  }
+
+  .game_countdown_minus {
+    top: 54px;
+    font-size: 14px;
+  }
+
+  @keyframes moveDown {
+    to {
+      top: 78px; /* End position */
+    }
+  }
+}
