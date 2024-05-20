@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+🚀 Next ve Typescript ile geliştirdiğim Spelling Bee oyununun lansmanını heyecanla duyuruyorum! 🎉<br />
+🔗 Uygulamayı görmek ve denemek için [buraya tıklayabilirsiniz](https://spelling-bee-app-nine.vercel.app/).<br />
+💅 Figmadaki tasarımımı görmek için [buraya tıklayabilirsiniz](https://www.figma.com/design/lWPws1f6aFJeqv1ODKfgcx/spelling-bee?m=dev&node-id=0%3A1&t=XN7GMOdUyQVOPJ18-1).<br />
+📚 Bu oyun, kullanıcıların verilen yedi adet harf ile kelime türetmesini, her türettiği kalimenin harfi kadar puan almasını, eğer harfleri üçten fazla ise ilave 3 puan daha almasını sağlıyor. Oyuna 60sn ile başlıyor. Her doğru oluşturduğu kelimede +15sn kazanıyor, her yeni harf grubu ürettiğinde -5sn kaybediyor<br />
+🔍 Backend tarafında next/server kullandım<br />
+🔄 Seçilen dile göre oyun sayfası dinamik olarak oluşuyor.<br />
+💼 Seçilen dil seçeneğine göre sayfa içeriğinin alınması, random harf grubunun üretilmesi, yazılan kelimenin kontrolü backend te yapılıyor<br />
+👨‍💻 Bu projeyi paylaşmaktan heyecan duyuyorum ve geri bildiriminizi bekliyorum!<br />
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img src="./public/Home.png" alt="Home" style="height: 600;">
+<img src="./public/GameTr.png" alt="GameTr" style="height: 600;">
+<img src="./public/GameEn.png" alt="GameEn" style="height: 600;">
+<img src="./public/PopUp.png" alt="PopUp" style="height: 600;">
+<img src="./public/MobilHome.png" alt="MobilHome" style="height: 600;">
+<img src="./public/MobilGameTr.png" alt="web" style="height: 600;">
