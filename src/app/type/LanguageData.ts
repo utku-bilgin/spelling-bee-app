@@ -1,9 +1,4 @@
 export interface LanguageData {
-  alphabet: {
-    full: string;
-    vowel: string;
-    sibilancy: string;
-  };
   button: {
     back: string;
     delete: string;

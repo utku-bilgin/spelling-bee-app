@@ -4,8 +4,8 @@ import Image from "next/image";
 import logo from "../../../public/home_logo.png";
 import tr from "../../../public/home_link_tr.png";
 import en from "../../../public/home_link_en.png";
-import bottom_left from "../../../public/home_bottom_left.png"
-import top_right from "../../../public/home_top_right.png"
+import bottom_left from "../../../public/home_bottom_left.png";
+import top_right from "../../../public/home_top_right.png";
 
 export default function HomeContainer() {
   return (

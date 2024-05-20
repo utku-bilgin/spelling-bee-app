@@ -12,14 +12,17 @@ export async function GET(){
 
 
 export async function POST(req,res){
-    const data  = await req.json()
-
+    try{
+        const data  = await req.json()
 
     if(data === "en"){
         return NextResponse.json(en)
     }
     else {
     return NextResponse.json(tr)
+    }
+    } catch (error) {
+        return NextResponse.status(500).json({ error: "An error occurred while trying to find the language." });
     }
 
 }

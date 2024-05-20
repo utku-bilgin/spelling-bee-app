@@ -45,3 +45,16 @@ export async function fetchIsWord(word, language) {
     throw new Error("Error fetching word", error);
   }
 }
+
+export async function fetchRandomLetters(language) {
+  try {
+    const res = await fetchData("/api/getLetters", {
+      method: "POST",
+      body: language,
+    });
+    return res;
+  } catch (error) {
+    throw new Error("Error fetching word", error);
+  }
+}
+

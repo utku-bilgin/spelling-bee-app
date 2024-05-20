@@ -10,7 +10,6 @@ export async function POST(req, res) {
 
     return NextResponse.json(isFound);
   } catch (error) {
-    console.error("Hata oluştu:", error);
-    return NextResponse.status(500).json({ error: "Bir hata oluştu." });
+    return NextResponse.status(500).json({ error: "An error occurred while trying to find the word." });
   }
 }
