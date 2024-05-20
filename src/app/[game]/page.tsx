@@ -6,8 +6,9 @@ import { LanguageData } from "@/app/type/LanguageData";
 
 
 interface PageProps {
-  params: any;
-  pageLanguage: LanguageData;
+  params: {
+    game: string;
+  };
 }
 
 
