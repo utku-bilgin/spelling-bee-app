@@ -10,8 +10,8 @@ export async function POST(req, res) {
     const alphabet = language === "en" ? en : tr;
 
     const alphabetFull = alphabet.alphabet.full.split(",");
-    const alphabetSibilancy = alphabet.alphabet.vowel.split(",");
-    const alphabetVowel = alphabet.alphabet.sibilancy.split(",");
+    const alphabetSibilancy = alphabet.alphabet.sibilancy.split(",");
+    const alphabetVowel = alphabet.alphabet.vowel.split(",");
 
     const GetLetters = (sibilancy, vowel, full) => {
       const allLetters = [];
