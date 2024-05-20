@@ -7,13 +7,11 @@ export const UserPredictedWord = ({
   error,
   isTrue,
   setIsTrue,
-  hasWord,
 }: {
   word: string;
   error: string;
   isTrue: boolean;
   setIsTrue: Function;
-  hasWord: boolean;
 }) => {
   useEffect(() => {
     if (isTrue) {

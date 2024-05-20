@@ -149,7 +149,6 @@ export const GamePage: React.FC<GamePageProps> = ({ pageLanguage, params }) => {
           word={word}
           error={error}
           isTrue={isTrue}
-          hasWord={hasWord}
           setIsTrue={setIsTrue}
         />
         {/* altıgen alanı */}
