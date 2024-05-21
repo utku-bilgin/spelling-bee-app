@@ -1,36 +1,10 @@
 :root {
-  --home-background-color: #FEC400;
+  --home-background-color: #fec400;
   --home-font-color: #000000;
-  --game-background-color: #FDFBFD;
+  --game-background-color: #fdfbfd;
 }
 
 body {
-    font-family: "Mulish", sans-serif;
-    font-size: 16px;
-    /* background-color: #000; */
-  }
-  
-  /* hata sayfasında yazının ortada olması için */
-  /* incele kısmından element içerisinde yazının olduğu div i buraya yazmış */
-  div[data-nextjs-scroll-focus-boundary] {
-    height: 100%;
-  }
-  
-  .container {
-    /* display: grid; */
-    /* grid-template-columns: 1fr min(1440px, 94%) 1fr; */
-    /* grid-template-rows: 96px auto 72px; */
-    /* grid-template-rows: auto 72px; */
-  }
-  
-  .container > * {
-    /* grid-column: 2; */
-  }
-  
-  .container > .fluid {
-    /* grid-column: 1 / -1; */
-  }
-
-
-
-  
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+}
